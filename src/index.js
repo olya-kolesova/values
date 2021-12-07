@@ -1,5 +1,6 @@
-import React from 'rect';
+import React from 'react';
 import ReactDOM from 'react-dom';
+import Validator from './Validator';
 
 class App extends React.Component {
   render() {

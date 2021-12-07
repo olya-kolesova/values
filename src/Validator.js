@@ -14,6 +14,8 @@ class Validator extends React.Component {
             <label htmlFor=""></label>
             <input
               type="password"
+              onChange={(e) => this.setState({password: e.target.value})}
+              value={this.state.password}
             />
           </div>
           {this.state.password.length < 4 ? 'Password must be at least 4 characters' : ''}
